@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react'
+import "./App.css"
+import Todo from './component/Todo'
 
-function App() {
+const App = () => {
   return (
     <div>
-      
+      <Todo />
     </div>
-  );
+  )
 }
 
 export default App;
